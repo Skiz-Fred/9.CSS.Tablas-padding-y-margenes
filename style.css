@@ -1,0 +1,45 @@
+table,td,th {
+    border:2px solid blue;
+    border-collapse:collapse;
+}
+
+table {
+    width: 70%;
+    vertical-align:center;
+    text-align:center;
+}
+
+thead {
+    color: rgb(255, 3, 66);
+}
+
+tfoot {
+    color: red;
+}
+
+tbody {
+    color: rgb(0, 0, 0);
+}
+
+tr {
+    height: 80px;
+}
+
+tr:nth-child(even) {
+    background-color:aquamarine;
+
+}
+tr:nth-child(odd) {
+    background-color:lightgreen;
+}
+tr:hover {
+    background-color:lightblue;
+}
+
+#contenedor-tabla {
+    text-align:center;
+}
+table {
+    margin:auto;
+}
+
